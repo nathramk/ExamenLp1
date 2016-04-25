@@ -12,12 +12,12 @@
 Bienvenido a la cadena de hotel PeruInka
 
 <br>
-<a href="frmCliente">nuevo Cliente</a>
+<a href="frmProducto">nuevo Producto</a>
 <br>
 
-<display:table name="${listCliente}" id="item" class="table">
+<display:table name="${listProduct}" id="item" class="table">
  	<display:column title="Clave" property="ID" />
-	<display:column title="Nombres" property="nombre" />
+	<display:column title="Nombres" property="Nombre" />
 	<display:column title="Apellidos paterno" property="ApellidoPaterno" />
 	<display:column title="Apellido Materno" property="ApellidoMaterno" />
 	<display:column title="Tipo De Documento" property="Tip_Documento" />

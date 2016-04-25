@@ -1,20 +1,29 @@
-package pe.com.peru.Inka.webapp.util;
+package pe.com.peru.Inka.service.util;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-//@XmlRootElement(name="clientes")
-public class clientes {
-private String Nombre;
+//@XmlRootElement(name="cliente")
+public class Cliente {
+private String nombre;
 private String ApellidoPaterno;
 private String ApellidoMaterno;
 private String Tip_Documento;
-private long Documento;
+private Long Documento;
+private Long ID;
+
 public String getNombre() {
-	return Nombre;
+	return nombre;
 }
 public void setNombre(String nombre) {
-	Nombre = nombre;
+	this.nombre = nombre;
 }
+public Long getID() {
+	return ID;
+}
+public void setID(Long iD) {
+	ID = iD;
+}
+
 public String getApellidoPaterno() {
 	return ApellidoPaterno;
 }
@@ -33,10 +42,10 @@ public String getTip_Documento() {
 public void setTip_Documento(String tip_Documento) {
 	Tip_Documento = tip_Documento;
 }
-public long getDocumento() {
+public Long getDocumento() {
 	return Documento;
 }
-public void setDocumento(long documento) {
+public void setDocumento(Long documento) {
 	Documento = documento;
 }
 

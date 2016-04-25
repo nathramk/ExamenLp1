@@ -1,0 +1,49 @@
+/* stylus */
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+article, figcaption, figure, footer, header, hgroup, nav, section{
+	display: block;
+}
+body{
+	background: #212121 url(.../negro.jpg);
+	color: #FFF;
+	font-family: Verdana;
+	font-size: 1em;
+}
+a{
+	color: #57ABB8;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover{
+	color: #F60;
+}
+figcaption{
+	font-size: 0.85em;
+	padding: 0.25em;
+	text-align: center;
+}
+img, video{
+	max-width: 100%;
+}
+header, section#contenido, footer{
+	margin: 0;
+	max-width: 90%;
+	text-align: center;
+}
+header h1, nav{
+	display: inline-block;
+	max-width: 100%;
+	text-align: middle;
+}
+nav ul{
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align: middle;
+}

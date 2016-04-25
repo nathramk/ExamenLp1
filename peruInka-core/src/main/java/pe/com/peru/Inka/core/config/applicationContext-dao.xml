@@ -30,7 +30,7 @@
 <!-- 		<property name="configLocations"> -->
 <!-- 			<list> -->
 <!-- 				<value> -->
-<!-- 					classpath:pe/com/peruInka/core/config/hibernate.cfg.xml -->
+<!-- 					classpath:pe/com/peru/Inka/core/config/hibernate.cfg.xml -->
 <!-- 				</value> -->
 <!-- 			</list> -->
 <!-- 		</property> -->
@@ -47,8 +47,8 @@
 <!-- 		</property> -->
 <!-- 	</bean> -->
 
-	<bean id="transactionManager"
-		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
-		<property name="sessionFactory" ref="sessionFactory" />
-	</bean>
+<!--  	<bean id="transactionManager"-->
+<!-- 		class="org.springframework.orm.hibernate3.HibernateTransactionManager">-->
+<!-- 		<property name="sessionFactory" ref="sessionFactory" />-->
+<!-- 	</bean> -->
 </beans>

@@ -1,4 +1,4 @@
-package pe.com.peru.Inka.webapp.util;
+package pe.com.peru.Inka.service.util;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -9,7 +9,7 @@ private int precio;
 private String Descripcion;
 private String Atributo;
 private String estado;
-private long sucursalID;
+private Long sucursalID;
 private String tipoProduct;
 public String getNombreDeProducto() {
 	return NombreDeProducto;
@@ -41,10 +41,10 @@ public String getEstado() {
 public void setEstado(String estado) {
 	this.estado = estado;
 }
-public long getSucursalID() {
+public Long getSucursalID() {
 	return sucursalID;
 }
-public void setSucursalID(long sucursalID) {
+public void setSucursalID(Long sucursalID) {
 	this.sucursalID = sucursalID;
 }
 public String getTipoProduct() {

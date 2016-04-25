@@ -1,4 +1,4 @@
-package pe.com.peru.Inka.webapp.util;
+package pe.com.peru.Inka.service.util;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
